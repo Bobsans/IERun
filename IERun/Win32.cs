@@ -2,7 +2,7 @@
 
 namespace IERun;
 
-public class Win32 {
+public static class Win32 {
     [DllImport("user32.dll")]
     public static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
 
